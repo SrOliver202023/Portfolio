@@ -47,6 +47,8 @@ export const GlobalStyle = createGlobalStyle`
       transform: rotate(360deg);
     }
   }
+
+
 }
 
 
@@ -58,11 +60,33 @@ export const GlobalStyle = createGlobalStyle`
   font-family:sans-serif;
   box-sizing:border-box;
   font-family: 'JetBrains Mono', sans-serif;
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--Gray-400);
+  border-radius: 6px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--PurpleHeart-400);
+  border-radius: 6px;
+}
+
+
 }
 
 textarea,button {
   font-family: 'JetBrains Mono', sans-serif;
 }
+
+
 
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   /* @media (min-width:320px) {
