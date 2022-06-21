@@ -27,13 +27,16 @@ export function BusinessCard() {
         <SocialWrapper>
           <h3>Redes sociais</h3>
           <footer>
-            <a href="#">
+            <a href="https://github.com/SrOliver202023" target="_black">
               <img src={FiGithubSvg} alt="Github Icon" />
             </a>
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/emmerson-oliveira-0564191b4/"
+              target="_black"
+            >
               <img src={FiLinkedinSvg} alt="Likedin Icon" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/sr.oliver23/" target="_black">
               <img src={FiInstagramSvg} alt="Instagram Icon" />
             </a>
           </footer>
